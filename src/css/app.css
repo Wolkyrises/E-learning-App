@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+#root {
+    background-image: url("../Img/fondash.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#app-container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: darkturquoise;
+    margin: 3rem 0rem;
+}
